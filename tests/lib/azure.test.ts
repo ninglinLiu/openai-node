@@ -249,7 +249,7 @@ describe('instantiate azure client', () => {
     expect(client.apiVersion).toBe('My API Version');
   });
 
-  test('with overriden environment variable arguments', () => {
+  test('with overridden environment variable arguments', () => {
     // set options via env var
     process.env['AZURE_OPENAI_API_KEY'] = 'another My API Key';
     process.env['OPENAI_API_VERSION'] = 'another My API Version';

@@ -1259,7 +1259,7 @@ describe('stringify()', () => {
     expect(stringify({ a: 'b', c: 'd' }, { delimiter: ';' })).toBe('a=b;c=d');
   });
 
-  // We dont target environments which dont even have Buffer
+  // We don't target environments which don't even have Buffer
   // test('does not blow up when Buffer global is missing', function () {
   // 	var restore = mockProperty(global, 'Buffer', { delete: true });
 
